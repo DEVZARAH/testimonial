@@ -3,6 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family:Barlow ;
+    src: url(../Barlow_Semi_Condensed/BarlowSemiCondensed-Medium.ttf);
+}
+body{
+    font-family: Barlow;
+}
 .container{
     margin: 0 auto;
     width: 80%;
@@ -89,6 +96,7 @@ img{
     grid-row-end: 3;
     border: 2px solid hsl(0, 0%, 100%);
  border-radius: 10px;
+ color: black;
 }
 .kira img{
     width: 12%;
@@ -99,12 +107,16 @@ img{
     padding: 30px;
     border: 2px solid hsl(0, 0%, 100%);
     border-radius: 10px;
+    color: black;
 }
 .jean img{
     border: 2px solid black;
 }
 .black{
     font-size: 17px;
+}
+.btext{
+    color: black;
 }
 .white{
     color: hsl(0, 0%, 100%);
@@ -117,6 +129,9 @@ img{
     opacity: 70%;
 }
 @media(max-width:480px) {
+    .container{
+        padding: 20px;
+    }
     .grid-con{
         display: flex;
         flex-direction: column;
@@ -125,6 +140,6 @@ img{
         width: 100%;
     }
    .all img{
-    width: 25%;
+    width: 15%;
    }
 }
