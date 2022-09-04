@@ -117,5 +117,8 @@ img{
         display: flex;
         flex-direction: column;
     }
+    .all{
+        width: 100%;
+    }
    
 }
